@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenny's Portfolio</title>
+    <style>
+        .Nav-Bar{
+            display: flex block;
+            padding-right: 40%;
+            background-color: rgb(72, 70, 70);
+            gap: 30px;
+            flex-direction: row;
+            height: 3vh;
+            justify-content: flex-end;
+            border: solid black;
+            grid-column: span 2;
+            color: white;
+            border: 0;
+            
+
+        }
+        .Nav-Bar a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        li{
+            list-style: none;
+        }
+        body{
+            background-color: rgb(30, 121, 101);
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 3rem;
+            height: 100vh;
+            margin-top: 0%;
+        }
+        .main-text{
+        margin-left: 100px;
+        font-size: larger;
+        color: aliceblue;
+        }
+        
+        img{
+           border-radius: 35%;
+           height: 40%;
+           float: right;
+           margin-right: 100px;
+    
+            
+        }
+        .Service-button{
+            background-color: orange;
+            width: 150px;
+            height: 40px;
+            text-align: center;
+        }
+        .Service-button a{
+            color: white;
+          margin-top: 50%;
+          text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="grid-container">
+<div class="Nav-Bar">
+    <li><a href="./Home.html">Home</a></li>
+    <li><a href="./About.html">About</a></li>
+    <li><a href="./Service.html">Service</a></li>
+    <li><a href="./Contact.html">Contact</a></li>
+    
+</div>
+<div class="main-text">
+    Hello, Welcome
+    <p><h1>I'm Kenny Benson</h1></p>
+    Welcome to my portfolio! I'm a versatile creator, blending melodies as a music producer and coding solutions as a freshman software engineer. With a passion for both harmony and innovation, I craft immersive auditory experiences and elegant software solutions. Explore my journey through sound and code. <div class="Service-button"><p><a href="./About.html">About Me</a></p></div>
+</div>
+<div class="Image">
+    <img src="./My pic.jpg" alt="">
+    
+</div>
+</div>
+    
+</body>
+</html>
